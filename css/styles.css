@@ -1,0 +1,162 @@
+@font-face {
+  font-family: Robotoflex;
+  src: url(../fonts/robotoflex.ttf);
+  font-weight: 100 950;
+  font-stretch: 75% 150%;
+  font-optical-sizing: auto;
+}
+
+* {
+  box-sizing: content-box;
+}
+
+body {
+  font-family: Robotoflex;
+  background-color: #f8f8f8;
+}
+
+header,
+main,
+footer,
+article,
+nav {
+  max-width: 1280px;
+}
+
+/*
+header {
+  border: 1px solid red;
+}
+main {
+  border: 1px solid green;
+}
+*/
+
+footer {
+  border-top: 6;
+  border-top-color: #666;
+  border-top-style: dotted;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between; 
+  width: 100vw;
+}
+
+/*
+nav {
+  border: 1px solid darkgrey;
+}
+article {
+  border: 1px solid yellow;
+}
+*/
+
+.container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1280px;
+  background-color: #f8f8f8;
+}
+
+h1 {
+  font-family: Robotoflex;
+  font-weight: 800;
+  font-stretch: 120%;
+  font-variation-settings: "wght" 800 "wdth" 120;
+}
+
+p {
+  font-family: Robotoflex;
+  font-weight: 300;
+  font-stretch: 90%;
+  font-variation-settings: "wght" 400 "wdth" 90;
+}
+
+article {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start; 
+}
+
+footer { 
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly; 
+}
+
+/* issues, socials */
+
+.socials {
+  font-family: Robotoflex;
+  font-size: 1.1rem;
+  font-weight: 700;
+  font-stretch: 90%;
+  font-variation-settings: "wght" 700 "wdth" 90;
+  justify-content: flex-start; 
+
+}
+
+.socials svg {padding-right: .3rem; margin: 6px 0 0  }
+
+.socials a { 
+  color: red; 
+  font-size: inherit; 
+}
+
+.issue {
+  background-color: #f4f4f4;
+  margin: 0 .8rem  .8rem 0;
+  max-width: 240px;
+  border: 1px solid #999;
+}
+
+.cover, .logo {   width: 100%; }
+
+.title,
+.subtitle,
+.dllink,
+.num {
+  font-family: Robotoflex;
+  font-size: 1.2rem;
+  font-weight: 900;
+  font-stretch: 130%;
+  font-variation-settings: "wght" 900 "wdth" 130;
+  padding:  6px  12px  0;
+  margin: 0;
+}
+
+.subtitle,
+.num {
+  padding-top: 6px;
+  font-size: 0.9rem;
+}
+
+.num {
+  padding-top: 12px;
+  font-size: 1rem;
+  color: #888;
+}
+
+.dllink,
+.upnext { 
+  float: right; 
+  padding: 24px 24px 0 0 ;
+  color: red; 
+  font-size: inherit; 
+  font-size: 1rem ;
+}
+
+.upnext{ 
+    font-weight: bold;
+     color: rgb(68, 128, 0)
+     }
+
+  .action {
+    font-family: Robotoflex;
+    font-size: 1.2rem;
+    font-weight: 900;
+    font-stretch: 130%;
+    font-variation-settings: "wght" 900 "wdth" 130;
+    color: red;
+  }
